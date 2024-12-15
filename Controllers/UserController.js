@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+var bcrypt = require('bcryptjs');
 const User = require("../Models/User");
 const Task = require("../Models/Task");
 const isAuthorized = require("../middleware/isAuthorized");
